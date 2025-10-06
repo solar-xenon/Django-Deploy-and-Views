@@ -6,7 +6,8 @@ SECRET_KEY = 'django-insecure-x!b1%jb9**68$ca=xj(7fae=^bu!8pw25wkf3t!^yb#l=&pz*!
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['solarxenom.pythonanywhere.com']
+ALLOWED_HOSTS = ['solarxenom.pythonanywhere.com',
+                 '127.0.0.1', 'localhost']
 
 INSTALLED_APPS = [
     'django.contrib.admin',

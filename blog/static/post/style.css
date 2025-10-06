@@ -1,0 +1,49 @@
+/* Page background and base font */
+body {
+    background-color: #e6f2ff; /* Light blue background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px;
+    color: #333;
+}
+
+/* Container for content */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Main heading */
+h1 {
+    color: #005580;
+    border-bottom: 2px solid #cce0ff;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+/* Blog post block */
+div {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Post title */
+h2 {
+    color: #004466;
+    margin-bottom: 10px;
+}
+
+/* Post text */
+p {
+    line-height: 1.6;
+}
+
+/* Timestamp */
+small {
+    color: #666;
+    font-size: 0.9em;
+}
